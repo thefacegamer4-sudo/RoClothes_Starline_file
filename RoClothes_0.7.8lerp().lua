@@ -527,8 +527,8 @@ function RoClothes(Player)
 	local inverseTimeStep = 1 / timeStep
 
 	local wagAnimationDropAmplitude = 0.5 -- Default: 0.2. How far in radians the tail will rotate down (90% of this value is rotating down and 10% is up)
-	local wagAnimationSwayAmplitude = 0.4 -- Default: 0.4. How far in radians the tail will rotate left and right.
-	local wagAnimationRollAmplitude = 0.1 -- Default: 0.5. How far in radians the tail will roll/twist.
+	local wagAnimationSwayAmplitude = 0.2 -- Default: 0.4. How far in radians the tail will rotate left and right.
+	local wagAnimationRollAmplitude = 0.5 -- Default: 0.5. How far in radians the tail will roll/twist.
 
 	local wagAnimationBlendInAlpha = 0.008
 	local wagAnimationBlendOutAlpha = 0.02
