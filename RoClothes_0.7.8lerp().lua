@@ -526,14 +526,14 @@ function RoClothes(Player)
 	local timeStep = 1 / 120
 	local inverseTimeStep = 1 / timeStep
 
-	local wagAnimationDropAmplitude = 0.5 -- Default: 0.2. How far in radians the tail will rotate down (90% of this value is rotating down and 10% is up)
-	local wagAnimationSwayAmplitude = 0.2 -- Default: 0.4. How far in radians the tail will rotate left and right.
-	local wagAnimationRollAmplitude = 0.5 -- Default: 0.5. How far in radians the tail will roll/twist.
+	local wagAnimationDropAmplitude = 0.2 -- Default: 0.2. How far in radians the tail will rotate down (90% of this value is rotating down and 10% is up)
+	local wagAnimationSwayAmplitude = 0.4 -- Default: 0.4. How far in radians the tail will rotate left and right.
+	local wagAnimationRollAmplitude = 0.2 -- Default: 0.5. How far in radians the tail will roll/twist.
 
 	local wagAnimationBlendInAlpha = 0.008
 	local wagAnimationBlendOutAlpha = 0.02
 
-	local movementDistanceThreshold = 15 -- The physics tail interprets a teleporting player as moving fast. Movements beyond this radius are ignored.
+	local movementDistanceThreshold = 5 -- The physics tail interprets a teleporting player as moving fast. Movements beyond this radius are ignored.
 
 	local tailVariables = { -- DO NOT CHANGE, THIS IS FOR PHYSIC CALCULATIONS
 		["Default"] = {
